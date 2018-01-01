@@ -11,9 +11,9 @@ soul = BeautifulSoup(page, 'html.parser')
 
  #look for p tag
 
-reviews = soul.find_all('p')
+review = soul.find_all('p')
 
  #print each review
 
 for p in review:
-	print p.get_text()
+	print (p.get_text())
